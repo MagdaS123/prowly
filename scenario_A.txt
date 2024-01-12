@@ -16,7 +16,8 @@ And: I enter the search term "Prowly Media Monitoring"
 
 And: I press the enter button
 
-Then: I check whether 'Prowly Media Monitoring' information has been displayed
+Then:I check whether information about "Prowly Media Monitoring" is displayed.
+
 
 
 Scenario 2
@@ -36,6 +37,7 @@ And: I press the enter button
 Then: I check whether the information on "Prowly Media Monitoring" has been displayed.
 
 
+
 Scenario 3
 
 Feature: search for the phrase "Prowly Media Monitoring" on bing.com
@@ -50,7 +52,8 @@ And: I enter the search term "Prowly Media Monitoring"
 
 And: I press the enter button
 
-Then: I check whether the images on "Prowly Media Monitoring" have been displayed
+Then: I check whether the images about "Prowly Media Monitoring" have been displayed
+
 
 
 Scenario 4
@@ -92,3 +95,24 @@ And: I press the enter button
 Then: I check whether the information on "Prowly Media Monitoring" has been displayed.
 
 But: the search engine does not find any information for the search term
+
+
+
+
+Scenario 6
+
+Feature: search for the phrase "Prowly Media Monitoring" on bing.com
+
+Scenario: As a non-logged-in user, I want to check the performance of a search for the phrase "Prowly Media Monitoring" on bing.com using the "News" link
+
+Given: I am on bing.com
+
+When: I click on the "News" link
+
+And: I position the cursor in the "magnifying glass window"
+
+And: I enter the search term "Prowly Media Monitoring"
+
+And: I press the enter button
+
+Then: I'm checking if there is any news about "Prowly Media Monitoring"
