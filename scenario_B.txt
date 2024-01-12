@@ -15,3 +15,20 @@ And: I press the enter button
 Then: I check that the correct information on 'Prowly Media Monitoring' is displayed
 
 And: I check the information contained in the links under the search term
+
+
+Scenario 2
+
+Feature: Voice search for the phrase "Prowly Media Monitoring" in the browser bing.com/copilot
+
+Scenario: check the operation of the search term "Prowly Media Monitoring" on bing.com/copilot using voice
+
+Given: I am on bing.com/copilot
+
+When: I press the microphone icon in the search window
+
+And: I ask the question "What is Prowly Media Monitoring?"
+
+Then: I check that the correct information on "Prowly Media Monitoring" is displayed
+
+And: I check the information contained in the links under the search term
