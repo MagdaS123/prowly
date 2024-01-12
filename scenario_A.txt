@@ -34,3 +34,20 @@ And: I enter the search term "Prowly Media Monitoring"
 And: I press the enter button
 
 Then: I check whether the information on "Prowly Media Monitoring" has been displayed.
+
+
+Scenario 3
+
+Feature: search for the phrase "Prowly Media Monitoring" on bing.com
+
+Scenario: As a non-logged-in user, I want to check the performance of a search for the phrase "Prowly Media Monitoring" on bing.com using the link "Images"
+
+Given: I am on bing.com
+
+When: I click on the "Images" link
+
+And: I enter the search term "Prowly Media Monitoring"
+
+And: I press the enter button
+
+Then: I check whether the images on "Prowly Media Monitoring" have been displayed
