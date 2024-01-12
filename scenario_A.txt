@@ -10,7 +10,7 @@ When: I click on the "Chat" link
 
 And: choose one of the conversation styles, e.g. more creative, more balanced or more precise
 
-And: I position the cursor in the "magnifying glass window"
+And:  I place the cursor in the search field
 
 And: I enter the search term "Prowly Media Monitoring"
 
@@ -28,7 +28,7 @@ Scenario: as a non-logged-in user, I want to check the performance of a search f
 
 Given: I am on bing.com
 
-When: I position the cursor in the "magnifying glass window"
+When:  I place the cursor in the search field
 
 And: I enter the search term "Prowly Media Monitoring"
 
@@ -66,7 +66,7 @@ Given: I am on bing.com
 
 When: I click on the "Video" link
 
-And: I position the cursor in the "magnifying glass window"
+And:  I place the cursor in the search field
 
 And: I enter the search term "Prowly Media Monitoring"
 
@@ -86,7 +86,7 @@ Given: I am on bing.com
 
 When: I click on the "Maps" link
 
-And: I position the cursor in the "magnifying glass window"
+And:  I place the cursor in the search field
 
 And: I enter the search term "Prowly Media Monitoring"
 
@@ -109,7 +109,7 @@ Given: I am on bing.com
 
 When: I click on the "News" link
 
-And: I position the cursor in the "magnifying glass window"
+And:  I place the cursor in the search field
 
 And: I enter the search term "Prowly Media Monitoring"
 
